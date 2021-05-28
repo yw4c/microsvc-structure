@@ -20,7 +20,7 @@
 
 ## Non-stop deployment
 ## Avoiding avalanche affect
-| 發生原因 / 解決方案 | IP Ratelimit | [Queue based load leviling](https://docs.microsoft.com/zh-tw/azure/architecture/patterns/queue-based-load-leveling) | 熔斷降級 | 縮短 timeout | 探針 | Auto-scale |
+| 發生原因 / 解決方案 | IP Ratelimit | [Queue based load leveling](https://docs.microsoft.com/zh-tw/azure/architecture/patterns/queue-based-load-leveling) | 熔斷降級 | 縮短 timeout | 探針 | Auto-scale |
 |---|---|---|---|---|---|---|
 | endpoint timeout (表太大，第三方API問題 等) | - | O | O | O | - | -|  
 | 服務無法訪問 | - | - | - | - | O | - | 
